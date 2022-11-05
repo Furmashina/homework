@@ -18,11 +18,9 @@ namespace homework_5_ex_1
     {
         static void Main(string[] args)
         {
-            visitors[] arr = new visitors[5];
-            bool approve = false;
-            int guest = 0;
-            int input = 0;
+        Visitors[] arr = new Visitors[5];
             int index = 0;
+            int input = 0;
             while (input != 5)
             {
                 Console.WriteLine("1. Добавить гостя");
@@ -34,31 +32,15 @@ namespace homework_5_ex_1
                 switch (input)
                 {
                     case 1:
-
-                        Console.WriteLine("Введите имя гостя");
-                        string names = Console.ReadLine();
-                        visitors visitor = new visitors();
-                        visitor.Names = names;
-                        arr[index] = visitor;
-                        index++;
-                        break;
-                    case 2:
-                        Console.WriteLine("Введите имя гостя");
-                        string name = Console.ReadLine();
-                        visitor.Names = name;
-                        if (visitor.Names == name)
-                        {
-                            approve = true;
-                        }
-                        if (approve)
-                        {
-                            Console.WriteLine("Данного типа ты уже добавил");
-                        }
+                    Console.WriteLine("введите имя госят");
+                    string name = Console.ReadLine();
+                    for (int i = 0; i < arr.Length; i++)
+                    {
+                        Visitors v = new Visitors();
+                        arr[i] = v;
+                        Console.WriteLine(name);
+                    }
                     break;
-                    case 3:
-                        Console.WriteLine("Введите имя гостя, которого хотите удалить");
-
-
                     case 5:
                         {
                             Console.WriteLine("Вы вышли из приложения");
@@ -68,7 +50,7 @@ namespace homework_5_ex_1
             }
         }
     }
-    class visitors
+    class Visitors
     {
         public string Names;
 

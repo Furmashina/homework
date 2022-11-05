@@ -58,8 +58,6 @@ namespace homework5_ex_2
             arr[3] = arbuz;
             arr[4] = beer;
             int input = 0;
-           
-            int min = 0;
             while (input != 7)
             {
                 Console.WriteLine("1. Вывести все фрукты");
@@ -111,6 +109,13 @@ namespace homework5_ex_2
                         }
                         break;
                     case 5:
+                        int sum = 0;
+                        for (int i = 0; i < arr.Length; i++)
+                        {
+                            int val = arr[i].buysell;
+                            sum += val;
+                        }
+                        Console.WriteLine(sum);
 
                         break;
                     case 6:

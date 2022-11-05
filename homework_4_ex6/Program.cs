@@ -21,7 +21,6 @@ namespace homework_4_ex6
             string[] arr = new string[5];
             int input = 0;
             int size = 0;
-            Console.WriteLine("Выберите пункт");
             while (input != 5)
             {
                     Console.WriteLine("1.Добавить покупку");

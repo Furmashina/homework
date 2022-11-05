@@ -20,12 +20,10 @@ namespace homework_4_ex_8
             //3.Удалить паспорт
             //4.Проверить паспорт на существование
             //5.Выход
-            int[] ser = new int[5];
-            int[] numb = new int[5];
+            string[] ser = new string[5];
+            string[] numb = new string[5];
             string[] name = new string[5];
-            int indexSer = 0;
-            int indexNumb = 0;
-            int indexName = 0;
+            int index = 0;
             int input = 0;
             while (input != 5)
             {
@@ -38,30 +36,34 @@ namespace homework_4_ex_8
                 switch (input)
                 {
                     case 1:
-                        bool approve = false;
                         Console.WriteLine("Введите серию паспорта");
-                        int ser1 = int.Parse(Console.ReadLine());
+                        string ser1 = Console.ReadLine();
                         for (int i = 0; i < ser.Length; i++)
                         {
                             ser[i] = ser1;
-                            ser[indexSer]++;
+                            index++;
                         }
                         Console.WriteLine("Введите номер паспорта");
-                        int numb1 = int.Parse(Console.ReadLine());
+                        string numb1 = Console.ReadLine();
                         for (int i = 0; i < numb.Length; i++)
                         {
                             numb[i] = numb1;
-                            numb[indexNumb]++;
+                            index++;
                         }
-                        Console.WriteLine("Введите имя паспорта");
+                        Console.WriteLine("Введите Имя");
                         string name1 = Console.ReadLine();
                         for (int i = 0; i < name.Length; i++)
                         {
                             name[i] = name1;
-                            name[indexName]++;
+                            index++;
                         }
                         break;
-                    case 2:
+                        case 2:
+                        for (int i = 0; i < pass.Length; i++)
+                        {
+                               
+                        }
+                        break;
                 }
             }
         }
