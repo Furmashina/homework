@@ -50,17 +50,17 @@ namespace Homework_6_ex_2
         //Создайте метод с тремя параметрами: a,b,c.
         //Метод должен найти корни уравнения и вывести их на консоль.
         //Метод ничего не возвращает, только выводит на консоль.
-        public int Square2(int a, int b, int c)
+        public double Square2(int a, int b, int c)
         {
-            int d = b * b - 4 * a * c;
+            double d = b * b - 4 * a * c;
             if (d == 0)
             {
-                int x1 = -b / (2 * a);
+                double x1 = -b / (2 * a);
             }
             else if (d > 0)
             {
-                int x1 = -b + Math.Sqrt(d) / (2 * a);
-                int x2 = -b - Math.Sqrt(d) / (2 * a);
+                double x1 = -b + Math.Sqrt(d) / (2 * a);
+                double x2 = -b - Math.Sqrt(d) / (2 * a);
             }
             else
             {
