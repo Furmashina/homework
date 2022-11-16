@@ -142,7 +142,7 @@ namespace Homework_5_ex_4
                             }
                         }
                         break;
-                    case 5:
+                    case 5: //Прибыль за год вычисляется по формуле сумма на счету* процент на остаток / 100
                         int maxScoreSumm = 0;
                         double maxScorePercent = 0;
                         Console.WriteLine("Найти счет, владелец которого заработает больше всех процентов в течении года");
@@ -150,7 +150,8 @@ namespace Homework_5_ex_4
                         {
                             if (score[i].summScore > maxScoreSumm && score[i].percentYear > maxScorePercent)
                             {
-                                Console.WriteLine($"Счёт, который заработает больше всех процентов в течении года - {score[i].nameScore}");
+                                double summScoreProfit = score[i].summScore * score[i].percentYear / 100;
+                                Console.WriteLine($"максимальная прибыль за год будет у счёта - {score[i].nameScore} с процентной ставкой - {score[i].percentYear}\n И будет составлять {summScoreProfit}");
                             }
                         }
                         break;
