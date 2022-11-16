@@ -13,32 +13,33 @@ namespace honework_6_ex_1
     {
         static void Main(string[] args)
         {
-//Задача 1 Создать класс Calculator.
-//Методы:
-//int sum(int a, int b) -принимает 2 числа через параметры и возвращает сумму чисел
-//int minus(int a, int b) -возвращает разницу чисел
-//mult - принимает 2 числа через параметры и возвращает произведение чисел
-//divide - принимает 2 числа через параметры и возвращает результат деления чисел
-//greater - принимает 2 числа через параметры и возвращает нибольшее из двух чисел или любое из них, если числа равны
-//lesser - принимает 2 числа через параметры и возвращает наименьшее из двух чисел или любое из них, если числа равны
-//abs - принимает 1 положительное или отрицательное число и возвращает его по модулю(со знаком плюс).Модуль это число со знаком плюс.Пример: модуль числа 5 равен 5,
-//модуль числа -5 равен 5.
+            //Задача 1 Создать класс Calculator.
+            //Методы:
+            //int sum(int a, int b) -принимает 2 числа через параметры и возвращает сумму чисел
+            //int minus(int a, int b) -возвращает разницу чисел
+            //mult - принимает 2 числа через параметры и возвращает произведение чисел
+            //divide - принимает 2 числа через параметры и возвращает результат деления чисел
+            //greater - принимает 2 числа через параметры и возвращает нибольшее из двух чисел или любое из них, если числа равны
+            //lesser - принимает 2 числа через параметры и возвращает наименьшее из двух чисел или любое из них, если числа равны
+            //abs - принимает 1 положительное или отрицательное число и возвращает его по модулю(со знаком плюс).Модуль это число со знаком плюс.Пример: модуль числа 5 равен 5,
+            //модуль числа -5 равен 5.
 
 
-//В мейне создайте объект класса Calculator и меню:
-//1.Сложить(нужно считать два числа и вызвать метод sum)
-//2.Умножить(нужно считать два числа вызвать метод mult)
-//3.Делить(нужно считать два числа вызвать метод divide)
-//4.Вычесть(нужно считать два числа вызвать метод mult)
-//4.Наибольшее(нужно считать два числа вызвать метод greater)
-//5.Наименьшее(нужно считать два числа вызвать метод lesser)
-//6.Модуль(нужно считать одно число вызвать метод abs)
-//7.Выход
+            //В мейне создайте объект класса Calculator и меню:
+            //1.Сложить(нужно считать два числа и вызвать метод sum)
+            //2.Умножить(нужно считать два числа вызвать метод mult)
+            //3.Делить(нужно считать два числа вызвать метод divide)
+            //4.Вычесть(нужно считать два числа вызвать метод mult)
+            //4.Наибольшее(нужно считать два числа вызвать метод greater)
+            //5.Наименьшее(нужно считать два числа вызвать метод lesser)
+            //6.Модуль(нужно считать одно число вызвать метод abs)
+            //7.Выход
             //Calculator calc = new Calculator();//Для метода создаем новый класс
             //int result = calc.Sum(5, 20); //Для сохранения метода создаем переменную в которую записываем результат
             //Console.WriteLine(result); //Выводим результат
             //result = calc.Abs(4);//можем дальше использовать переменную для сохранения значений.
             //Console.WriteLine(result);
+            Calculator clc = new Calculator();
             int input = 0;
             while (input != 8)
             {
@@ -58,7 +59,7 @@ namespace honework_6_ex_1
                         int a = int.Parse(Console.ReadLine());
                         Console.WriteLine("Введите второе число");
                         int b = int.Parse(Console.ReadLine());
-                        Calculator clc = new Calculator();
+                       
                         int result = clc.Sum(a, b);
                         Console.WriteLine(result);
                         break;
@@ -67,8 +68,8 @@ namespace honework_6_ex_1
                         int a1 = int.Parse(Console.ReadLine());
                         Console.WriteLine("Введите второе число");
                         int b1 = int.Parse(Console.ReadLine());
-                        Calculator minus = new Calculator();
-                        int res = minus.Minus(a1, b1);
+                       
+                        int res = clc.Minus(a1, b1);
                         Console.WriteLine(res);
                         break;
                     case 3:
@@ -76,8 +77,8 @@ namespace honework_6_ex_1
                         int a2 = int.Parse(Console.ReadLine());
                         Console.WriteLine("Введите второе число");
                         int b2 = int.Parse(Console.ReadLine());
-                        Calculator divite = new Calculator();
-                        result = divite.Divite(a2, b2);
+                        
+                        result = clc.Divite(a2, b2);
                         Console.WriteLine(result);
                         break;
                     case 4:
@@ -85,8 +86,8 @@ namespace honework_6_ex_1
                         int a3 = int.Parse(Console.ReadLine());
                         Console.WriteLine("Введите второе число");
                         int b3 = int.Parse(Console.ReadLine());
-                        Calculator mult = new Calculator();
-                        result = mult.Mult(a3, b3);
+                        
+                        result = clc.Mult(a3, b3);
                         Console.WriteLine(result);
                         break;
                     case 5:
@@ -94,8 +95,8 @@ namespace honework_6_ex_1
                         int a4 = int.Parse(Console.ReadLine());
                         Console.WriteLine("Введите второе число");
                         int b4 = int.Parse(Console.ReadLine());
-                        Calculator greater = new Calculator();
-                        result = greater.Greater(a4, b4);
+                        
+                        result = clc.Greater(a4, b4);
                         Console.WriteLine(result);
                         break;
                     case 6:
@@ -103,15 +104,15 @@ namespace honework_6_ex_1
                         int a5 = int.Parse(Console.ReadLine());
                         Console.WriteLine("Введите второе число");
                         int b5 = int.Parse(Console.ReadLine());
-                        Calculator lesser = new Calculator();
-                        result = lesser.Lesser(a5, b5);
+                       
+                        result = clc.Lesser(a5, b5);
                         Console.WriteLine(result);
                         break;
                     case 7:
                         Console.WriteLine("Введите число");
                         int a6 = int.Parse(Console.ReadLine());
-                        Calculator abs = new Calculator();
-                        result = abs.Abs(a6);
+                       
+                        result = clc.Abs(a6);
                         Console.WriteLine(result);
                         break;
                     case 8:

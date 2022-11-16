@@ -3,45 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework", "Homework\Homework.csproj", "{FF6C4A20-C4E2-4EDC-9147-B09313863C51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_1_ex_1", "homework1ex\Homework_1_ex_1.csproj", "{7B9FD151-E0B6-4DB0-BA4D-F437FBE7A697}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework1ex", "homework1ex\homework1ex.csproj", "{7B9FD151-E0B6-4DB0-BA4D-F437FBE7A697}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_1_ex_2", "homwqork1ex\Homework_1_ex_2.csproj", "{1690EE3B-67ED-46C6-849E-521DA5E1C2E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homwqork2ex", "homwqork1ex\homwqork2ex.csproj", "{1690EE3B-67ED-46C6-849E-521DA5E1C2E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_1_ex_3", "homework3ex\Homework_1_ex_3.csproj", "{CC81886F-A52B-4986-BEC6-DE9B77D8C3F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework3ex", "homework3ex\homework3ex.csproj", "{CC81886F-A52B-4986-BEC6-DE9B77D8C3F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_1_ex_4", "homeworkex4\Homework_1_ex_4.csproj", "{C8AD574A-8979-425F-9916-93E6AC57DC7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeworkex4", "homeworkex4\homeworkex4.csproj", "{C8AD574A-8979-425F-9916-93E6AC57DC7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_1_ex_5", "Homeworkex5\Homework_1_ex_5.csproj", "{CD7F961A-1245-41AC-ABA9-B3B2C4F88B60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeworex4ToHard", "homeworex4ToHard\homeworex4ToHard.csproj", "{A19D3F4B-6611-4286-9BD9-3689F2DABA4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_1_ex_6", "homeworkex6\Homework_1_ex_6.csproj", "{4CB1AD55-9A00-4495-A5B0-4B8340E7AAAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homeworkex5", "Homeworkex5\Homeworkex5.csproj", "{CD7F961A-1245-41AC-ABA9-B3B2C4F88B60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_1_ex_7", "Homeworkex7\Homework_1_ex_7.csproj", "{6E155B48-6B8C-45C1-B149-A97083C89607}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeworkex6", "homeworkex6\homeworkex6.csproj", "{4CB1AD55-9A00-4495-A5B0-4B8340E7AAAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_1_ex_8", "homeworkex8\homework_1_ex_8.csproj", "{D1624724-B19A-4B47-9D7A-AFE6FD81E13C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homeworkex7", "Homeworkex7\Homeworkex7.csproj", "{6E155B48-6B8C-45C1-B149-A97083C89607}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_1_ex_9", "homeworkex9\homework_1_ex_9.csproj", "{3FE8CA84-64C0-4DF8-9C45-8C51B402386B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeworkex8", "homeworkex8\homeworkex8.csproj", "{D1624724-B19A-4B47-9D7A-AFE6FD81E13C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_1_ex_10", "homeworkex10\homework_1_ex_10.csproj", "{E3DE592B-196A-461B-A741-90ECD7E62B44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeworkex9", "homeworkex9\homeworkex9.csproj", "{3FE8CA84-64C0-4DF8-9C45-8C51B402386B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_1_ex_11", "homeworkex11\homework_1_ex_11.csproj", "{B3C92C30-CC13-4117-9868-9EFC6CE66604}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeworkex10", "homeworkex10\homeworkex10.csproj", "{E3DE592B-196A-461B-A741-90ECD7E62B44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_1_ex_12", "homeworkex12\homework_1_ex_12.csproj", "{440EE625-AACA-41BF-A996-4562A5ADBAD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeworkex11", "homeworkex11\homeworkex11.csproj", "{B3C92C30-CC13-4117-9868-9EFC6CE66604}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeworkex12", "homeworkex12\homeworkex12.csproj", "{440EE625-AACA-41BF-A996-4562A5ADBAD1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeworkex13", "homeworkex13\homeworkex13.csproj", "{5960CD15-E497-434A-9C74-E4AC6181C7E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_1_ex_13", "homeworkex13\homework_1_ex_13.csproj", "{5960CD15-E497-434A-9C74-E4AC6181C7E4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_2_ex_1", "homework_2_ex_1\homework_2_ex_1.csproj", "{22B83137-11E3-40D5-9441-43C99553FDC5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_2_ex_2", "homework_2_ex_2\homework_2_ex_2.csproj", "{9630862C-BF0D-4CB6-8ECC-9ABD69F4AED6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamework_console_1", "homework_2_ex_3\Gamework_console_1.csproj", "{66434CAE-B880-4E64-B77A-B1B262B8B0CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_2_ex_3", "homework_2_ex_3.1\homework_2_ex_3.csproj", "{732B77FA-EFCD-4EF7-8DEE-2EA062F81EB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_2_ex_3.1", "homework_2_ex_3.1\homework_2_ex_3.1.csproj", "{732B77FA-EFCD-4EF7-8DEE-2EA062F81EB4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeework_3_ex_1", "homeework_3_ex_1\homeework_3_ex_1.csproj", "{EEB1ECA6-CF16-46DA-83FE-0D7D75121DB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_3_ex_1", "homeework_3_ex_1\homework_3_ex_1.csproj", "{EEB1ECA6-CF16-46DA-83FE-0D7D75121DB9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_3_ex_2", "homework_3_ex_2\homework_3_ex_2.csproj", "{7E67627D-E626-4EFF-9D71-E73A2FD0C534}"
 EndProject
@@ -65,7 +59,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_4_ex_4", "homework
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_4_ex_5", "homework_4_ex_5\homework_4_ex_5.csproj", "{682A2E19-4B74-4D5F-8FE3-912795C5B7E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_4_ex6", "homework_4_ex6\homework_4_ex6.csproj", "{B98AB449-DA41-4181-B86A-E88FB2F53A1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_4_ex_6", "homework_4_ex6\homework_4_ex_6.csproj", "{B98AB449-DA41-4181-B86A-E88FB2F53A1B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_4_ex_7", "homework_4_ex_7\homework_4_ex_7.csproj", "{0079A595-76F6-4ED3-B1DD-4914F84046FC}"
 EndProject
@@ -73,11 +67,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_4_ex_8", "homework
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_5_ex_1", "homework_5_ex_1\homework_5_ex_1.csproj", "{B85F3248-9AA8-45E3-B62C-8B0C8358A5C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework5_ex_2", "homework5_ex_2\homework5_ex_2.csproj", "{E17CDAA5-2D2B-4507-934B-94BAC3148FEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_5_ex_2", "homework5_ex_2\homework_5_ex_2.csproj", "{E17CDAA5-2D2B-4507-934B-94BAC3148FEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "honework_6_ex_1", "honework_6_ex_1\honework_6_ex_1.csproj", "{48652264-E92A-4E36-B1A1-55A1D2F0D09B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_6_ex_1", "honework_6_ex_1\homework_6_ex_1.csproj", "{48652264-E92A-4E36-B1A1-55A1D2F0D09B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mssive", "Mssive\Mssive.csproj", "{E8AF69EB-26F6-4D8A-87E8-3DDE26080F94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_5_ex_3", "Homework_5_ex_3\Homework_5_ex_3.csproj", "{50A7F96C-6EF7-4E00-A52A-8903AEE5B2C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_5_ex_4", "Homework_5_ex_4\Homework_5_ex_4.csproj", "{9F1043BA-38AA-4BB6-8F2C-C7732D5A49E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_6_ex_2", "Homework_6_ex_2\Homework_6_ex_2.csproj", "{F0A9A463-8035-4EAE-A8A9-7ED0662F338E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_6_ex_3", "Homework_6_ex_3\Homework_6_ex_3.csproj", "{CDF88F94-7550-4437-B505-53B908AFE787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_6_ex_4", "Homework_6_ex_4\Homework_6_ex_4.csproj", "{6C4A996D-F428-41C7-97FC-E022AC01EC64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "123", "123\123.csproj", "{93C51E99-CA98-4786-A8C4-90037B809CC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,10 +89,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FF6C4A20-C4E2-4EDC-9147-B09313863C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF6C4A20-C4E2-4EDC-9147-B09313863C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF6C4A20-C4E2-4EDC-9147-B09313863C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF6C4A20-C4E2-4EDC-9147-B09313863C51}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7B9FD151-E0B6-4DB0-BA4D-F437FBE7A697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7B9FD151-E0B6-4DB0-BA4D-F437FBE7A697}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B9FD151-E0B6-4DB0-BA4D-F437FBE7A697}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -105,10 +105,6 @@ Global
 		{C8AD574A-8979-425F-9916-93E6AC57DC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8AD574A-8979-425F-9916-93E6AC57DC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8AD574A-8979-425F-9916-93E6AC57DC7A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A19D3F4B-6611-4286-9BD9-3689F2DABA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A19D3F4B-6611-4286-9BD9-3689F2DABA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A19D3F4B-6611-4286-9BD9-3689F2DABA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A19D3F4B-6611-4286-9BD9-3689F2DABA4B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CD7F961A-1245-41AC-ABA9-B3B2C4F88B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CD7F961A-1245-41AC-ABA9-B3B2C4F88B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD7F961A-1245-41AC-ABA9-B3B2C4F88B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -153,10 +149,6 @@ Global
 		{9630862C-BF0D-4CB6-8ECC-9ABD69F4AED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9630862C-BF0D-4CB6-8ECC-9ABD69F4AED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9630862C-BF0D-4CB6-8ECC-9ABD69F4AED6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{66434CAE-B880-4E64-B77A-B1B262B8B0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66434CAE-B880-4E64-B77A-B1B262B8B0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66434CAE-B880-4E64-B77A-B1B262B8B0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66434CAE-B880-4E64-B77A-B1B262B8B0CD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{732B77FA-EFCD-4EF7-8DEE-2EA062F81EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{732B77FA-EFCD-4EF7-8DEE-2EA062F81EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{732B77FA-EFCD-4EF7-8DEE-2EA062F81EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -233,10 +225,30 @@ Global
 		{48652264-E92A-4E36-B1A1-55A1D2F0D09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48652264-E92A-4E36-B1A1-55A1D2F0D09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48652264-E92A-4E36-B1A1-55A1D2F0D09B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E8AF69EB-26F6-4D8A-87E8-3DDE26080F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E8AF69EB-26F6-4D8A-87E8-3DDE26080F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E8AF69EB-26F6-4D8A-87E8-3DDE26080F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E8AF69EB-26F6-4D8A-87E8-3DDE26080F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A7F96C-6EF7-4E00-A52A-8903AEE5B2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A7F96C-6EF7-4E00-A52A-8903AEE5B2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A7F96C-6EF7-4E00-A52A-8903AEE5B2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A7F96C-6EF7-4E00-A52A-8903AEE5B2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F1043BA-38AA-4BB6-8F2C-C7732D5A49E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1043BA-38AA-4BB6-8F2C-C7732D5A49E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1043BA-38AA-4BB6-8F2C-C7732D5A49E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1043BA-38AA-4BB6-8F2C-C7732D5A49E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0A9A463-8035-4EAE-A8A9-7ED0662F338E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A9A463-8035-4EAE-A8A9-7ED0662F338E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A9A463-8035-4EAE-A8A9-7ED0662F338E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A9A463-8035-4EAE-A8A9-7ED0662F338E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF88F94-7550-4437-B505-53B908AFE787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF88F94-7550-4437-B505-53B908AFE787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF88F94-7550-4437-B505-53B908AFE787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF88F94-7550-4437-B505-53B908AFE787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4A996D-F428-41C7-97FC-E022AC01EC64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4A996D-F428-41C7-97FC-E022AC01EC64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4A996D-F428-41C7-97FC-E022AC01EC64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4A996D-F428-41C7-97FC-E022AC01EC64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C51E99-CA98-4786-A8C4-90037B809CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C51E99-CA98-4786-A8C4-90037B809CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C51E99-CA98-4786-A8C4-90037B809CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C51E99-CA98-4786-A8C4-90037B809CC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

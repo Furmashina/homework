@@ -1,18 +1,17 @@
 ﻿using System;
-using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace homework_5_ex_1
+namespace _123
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             Visitor[] arr = new Visitor[5];
-            int indexName = 0;
+            int index = 0;
             int input = 0;
             while (input != 5)
             {
@@ -28,7 +27,7 @@ namespace homework_5_ex_1
                         bool approve = true;
                         Console.WriteLine("Введите имя гостя");
                         string name = Console.ReadLine();
-                        for (int i = 0; i < arr.Length; i++)
+                        for (int i = 0; i < arr.Length - 1; i++)
                         {
                             if (arr[i] != null && arr[i].name == name)
                             {
@@ -37,37 +36,12 @@ namespace homework_5_ex_1
                         }
                         if (approve)
                         {
-                            arr[indexName] = new Visitor();
-                            arr[indexName].name = name;
-                            indexName++;
+                            arr[index] = new Visitor(name);
+                            index++;
                         }
                         break;
                     case 2:
-                        Console.WriteLine("Введите имя гостя для проверки");
-                        string nameVisitor = Console.ReadLine();
-                        for (int i = 0; i < arr.Length; i++)
-                        {
-                            if (arr[i] != null && arr[i].name == nameVisitor)
-                            {
-                                Console.WriteLine("Данный гость уже существует");
-                            }
-                        }
-                        break;
-                    case 3:
-                        //Console.WriteLine("Введите индекс гостя, которого хотите удалить");
-                        //int deleteVisitor = int.Parse(Console.ReadLine());
-                        //arr[deleteVisitor] = arr[indexName - 1];
-                        //arr[deleteVisitor] = null;
-                        //indexName--;
-                        Console.WriteLine("Введите имя гостя, которого хотите удалить");
-                        string deleteVisitor = Console.ReadLine();
-                        arr[deleteVisitor] = arr[indexName - 1];
-                        arr[deleteVisitor] = null;
-                        indexName--;
-                        Console.WriteLine("Вы удалили гостя");
-                        break;
-                    case 4:
-                        for (int i = 0; i < arr.Length; i++)
+                        for (int i = 0; i < arr.Length - 1; i++)
                         {
                             if (arr[i] != null)
                             {
@@ -75,8 +49,11 @@ namespace homework_5_ex_1
                             }
                         }
                         break;
-                    case 5:
-                        Console.WriteLine("До новых встреч");
+                    case 3:
+                        Console.WriteLine("Введите индекс гостя");
+                        int indexVisitor = int.Parse(Console.ReadLine());
+                        arr[indexVisitor] = arr[index - 1];
+                        index--;
                         break;
                 }
             }
@@ -88,10 +65,13 @@ namespace homework_5_ex_1
 class Visitor
 {
     public string name;
+    public Visitor(string name)
+    {
+        this.name = name;
+    }
 
     public void PrintVisitorName()
     {
         Console.WriteLine(name);
     }
 }
-
