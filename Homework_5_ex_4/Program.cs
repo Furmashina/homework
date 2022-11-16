@@ -131,9 +131,29 @@ namespace Homework_5_ex_4
                         }
                         break;
                     case 4:
-                        int max = 0;
+                        double max = 0;
                         Console.WriteLine("Найти счет с самым большим процентом на остаток");
-
+                        for (int i = 0; i < score.Length; i++)
+                        {
+                            if (score[i].percentYear > max)
+                            {
+                                max = score[i].percentYear;
+                                Console.WriteLine($"Наибольший процент на остаток будет у счёта - {score[i].nameScore} с процентом - {score[i].percentYear}");
+                            }
+                        }
+                        break;
+                    case 5:
+                        int maxScoreSumm = 0;
+                        double maxScorePercent = 0;
+                        Console.WriteLine("Найти счет, владелец которого заработает больше всех процентов в течении года");
+                        for (int i = 0; i < score.Length; i++)
+                        {
+                            if (score[i].summScore > maxScoreSumm && score[i].percentYear > maxScorePercent)
+                            {
+                                Console.WriteLine($"Счёт, который заработает больше всех процентов в течении года - {score[i].nameScore}");
+                            }
+                        }
+                        break;
                 }
             }
         }
