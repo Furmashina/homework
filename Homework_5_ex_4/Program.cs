@@ -39,36 +39,20 @@ namespace Homework_5_ex_4
                 {
                     case 0:
                         bool approveNumb = true;
-                        bool approveSumm = true;
-                        bool approvePercent = true;
                         Console.WriteLine("Введите сумму на счете");
                         int summScor = int.Parse(Console.ReadLine());
-                        for (int i = 0; i < score.Length; i++)
-                        {
-                            if (summScor != 0)
-                            {
-                                approveSumm = false;
-                            }
-                        }
                         Console.WriteLine("Введите номер счета");
                         int numberScor = int.Parse(Console.ReadLine());
                         for (int i = 0; i < score.Length; i++)
                         {
                             if (score[i] != null && score[i].nameScore == numberScor)
                             {
-                                approveNumb = false;
+                                approveNumb = true;
                             }
                         }
                         Console.WriteLine("Введите процент за год");
                         double percentScor = double.Parse(Console.ReadLine());
-                        for (int i = 0; i < score.Length; i++)
-                        {
-                            if (percentScor != 0)
-                            {
-                                approvePercent = false;
-                            }
-                        }
-                        if (approveNumb && approvePercent && approveSumm)
+                        if (approveNumb)
                         {
                             score[index++] = new BankAccount(summScor, numberScor, percentScor);
                         }
@@ -76,7 +60,10 @@ namespace Homework_5_ex_4
                     case 1:
                         for (int i = 0; i < score.Length; i++)
                         {
-                            score[i].PrintAccount();
+                            if (score[i] != null)
+                            {
+                                score[i].PrintAccount();
+                            }
                         }
                         break;
                     case 2:
@@ -84,7 +71,7 @@ namespace Homework_5_ex_4
                         int scorename = int.Parse(Console.ReadLine());
                         for (int i = 0; i < score.Length; i++)
                         {
-                            if (scorename == score[i].nameScore)
+                            if (score[i] != null && scorename == score[i].nameScore)
                             {
                                 Console.WriteLine($"Сумма на счете {score[i].nameScore} = {score[i].summScore}$");
                             }
@@ -131,30 +118,38 @@ namespace Homework_5_ex_4
                         }
                         break;
                     case 4:
-                        double max = 0;
-                        Console.WriteLine("Найти счет с самым большим процентом на остаток");
-                        for (int i = 0; i < score.Length; i++)
                         {
-                            if (score[i].percentYear > max)
+                            double max = 0;
+                            int maxIndex = 0;
+                            Console.WriteLine("Найти счет с самым большим процентом на остаток");
+                            for (int i = 0; i < score.Length; i++)
                             {
-                                max = score[i].percentYear;
-                                Console.WriteLine($"Наибольший процент на остаток будет у счёта - {score[i].nameScore} с процентом - {score[i].percentYear}");
+                                if (score[i] != null && score[i].percentYear > max)
+                                {
+                                    max = score[i].percentYear;
+                                    maxIndex = i;
+                                }
                             }
+                            Console.WriteLine($"Наибольший процент на остаток будет у счёта - {score[maxIndex].nameScore} с процентом - {score[maxIndex].percentYear}");
+                            break;
                         }
-                        break;
                     case 5: //Прибыль за год вычисляется по формуле сумма на счету* процент на остаток / 100
-                        int maxScoreSumm = 0;
-                        double maxScorePercent = 0;
-                        Console.WriteLine("Найти счет, владелец которого заработает больше всех процентов в течении года");
-                        for (int i = 0; i < score.Length; i++)
                         {
-                            if (score[i].summScore > maxScoreSumm && score[i].percentYear > maxScorePercent)
+                            double maxDohod = 0;
+                            int maxIndex = 0;
+                            Console.WriteLine("Найти счет, владелец которого заработает больше всех процентов в течении года");
+                            for (int i = 0; i < score.Length; i++)
                             {
-                                double summScoreProfit = score[i].summScore * score[i].percentYear / 100;
-                                Console.WriteLine($"максимальная прибыль за год будет у счёта - {score[i].nameScore} с процентной ставкой - {score[i].percentYear}\n И будет составлять {summScoreProfit}");
+                                if (score[i].summScore * score[i].percentYear / 100 > maxDohod)
+                                {
+                                    maxDohod = score[i].summScore * score[i].percentYear / 100;
+                                    maxIndex = i;
+
+                                }
                             }
+                            Console.WriteLine($"максимальная прибыль за год будет у счёта - {score[maxIndex].nameScore} с процентной ставкой - {score[maxIndex].percentYear}\n И будет составлять {maxDohod}");
+                            break;
                         }
-                        break;
                 }
             }
         }

@@ -45,6 +45,14 @@ namespace Homework_6_ex_2
             //Console.WriteLine(result);
             //int result = solution.Factorial(5);
             //Console.WriteLine(result);
+            double[] arr = solution.Square2(4, 1, 3);
+            if (arr != null)
+            {
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    Console.WriteLine(arr[i]);
+                }
+            }
         }
     }
 }

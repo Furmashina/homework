@@ -40,33 +40,40 @@ namespace Homework_6_ex_2
         //Задача 2.4 Добавьте в класс Solution еще один метод.Метод принимает одно число через параметр и возвращает его факториал.
         public int Factorial(int a)
         {
+            int fact = 1;
             for (int i = 1; i <= a; i++)
             {
-                a = a * i;
+                fact = fact * i;
             }
-            return a;
+            return fact;
         }
         //Задача 2.5 Добавьте в класс Solution метод решения квадратных уравнений вида a*x ^ 2 + b * x + c = 0.
         //Создайте метод с тремя параметрами: a,b,c.
         //Метод должен найти корни уравнения и вывести их на консоль.
         //Метод ничего не возвращает, только выводит на консоль.
-        public double Square2(int a, int b, int c)
+        public double[] Square2(int a, int b, int c)
         {
+            double[] arr=null;
             double d = b * b - 4 * a * c;
             if (d == 0)
             {
                 double x1 = -b / (2 * a);
+                arr = new double[1];
+                arr[0] = x1;
             }
             else if (d > 0)
             {
                 double x1 = -b + Math.Sqrt(d) / (2 * a);
                 double x2 = -b - Math.Sqrt(d) / (2 * a);
+                arr = new double[2];
+                arr[0] = x1;
+                arr[1] = x2;
             }
             else
             {
                 Console.WriteLine("Нет корней");
             }
-            return d;
+            return arr;
         }
     }
 }

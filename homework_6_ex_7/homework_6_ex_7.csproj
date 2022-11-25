@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CDF88F94-7550-4437-B505-53B908AFE787}</ProjectGuid>
+    <ProjectGuid>{E48501E3-55DB-4F92-888F-8CAD870D3381}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Homework_6_ex_3</RootNamespace>
-    <AssemblyName>Homework_6_ex_3</AssemblyName>
+    <RootNamespace>homework_6_ex_7</RootNamespace>
+    <AssemblyName>homework_6_ex_7</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
