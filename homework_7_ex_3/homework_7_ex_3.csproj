@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC3EEC61-A83E-45C9-8901-7A2AD2BF5B9B}</ProjectGuid>
+    <ProjectGuid>{4E022F2E-B52C-4509-80A4-925FD93A6152}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>homework_6_ex_9</RootNamespace>
-    <AssemblyName>homework_6_ex_9</AssemblyName>
+    <RootNamespace>homework_7_ex_3</RootNamespace>
+    <AssemblyName>homework_7_ex_3</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
+    <Compile Include="Planet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC3EEC61-A83E-45C9-8901-7A2AD2BF5B9B}</ProjectGuid>
+    <ProjectGuid>{56C8BC24-FD1A-4746-AC56-6F3A5896876A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>homework_6_ex_9</RootNamespace>
-    <AssemblyName>homework_6_ex_9</AssemblyName>
+    <RootNamespace>homework_7_ex_1</RootNamespace>
+    <AssemblyName>homework_7_ex_1</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Car.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

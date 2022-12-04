@@ -50,21 +50,9 @@ namespace Homework_6_ex_4
                         //bool approve = false;
                         Console.WriteLine("Напишите индекс ноутбука, для подсчёта FPS");
                         int indexFps = int.Parse(Console.ReadLine());
-                        for (int i = 0; i < laptop.Length; i++)
-                        {
-                            if (indexFps == laptop.Length)
-                            {
-                                Console.WriteLine("ААААААААААААААААА");//сюда не заходит 
-                            }
-                        }
-                        //if (approve)
-                        //{
-                        //    laptop[indexFps].CalcFPS();
-                        //}
-                        //else
-                        //{
-                        //    Console.WriteLine("Че?");
-                        //}
+                        int fps = laptop[indexFps].CalcFPS();
+                        Console.WriteLine(fps);
+                     
                         break;
                     case 3:
                         //3.Прокачать ноутбук под индексом x(юзер вводит x и новое значение для cores и videoRam)
@@ -74,14 +62,8 @@ namespace Homework_6_ex_4
                         int newCores = int.Parse(Console.ReadLine());
                         Console.WriteLine("Введите новое значение для videoRam");
                         int newVideoRam = int.Parse(Console.ReadLine());
-                        for (int i = 0; i < laptop.Length; i++)
-                        {
-                            if (laptop[i] != null && indexLaptop == index)
-                            {
-                                laptop[i].Cores = newCores;
-                                laptop[i].VideoRam = newVideoRam;
-                            }
-                        }
+                        laptop[indexLaptop].Cores = newCores;
+                        laptop[indexLaptop].VideoRam = newVideoRam;
                         break;
                     case 4:
                         int maxFPS = 0;
