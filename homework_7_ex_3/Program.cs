@@ -54,6 +54,7 @@ namespace homework_7_ex_3
                         }
                         break;
                     case 3:
+                        //Нужно вывести один ответ: есть или нет
                         for (int i = 0; i < arrPlanet.Length; i++)
                         {
                             if (arrPlanet[i] != null)
